@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.corfundopadrao {
+    background-color: red;
+}
+
+.medicalGroup {
+    color: black;
+    position: absolute;
+    top: 15px;
+}
+
+
+.topo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #7285EB;
+    height: 70px;
+}
+
+
+.login {
+    color: #05085817;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 450px;
+    max-height: 450px;
+
+    background-image: url(../img/convenio-medico.jpg);
+    background-repeat: no-repeat;
+}
+
+.loginDados {
+    position: relative;
+    top: 40px;
+    
+    max-width: 450px;
+}
+
+.botaologin {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 40px;
+}
+
+.button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 30px;
+
+
+}
+
+.dados {
+    border: none;
+    border-radius: 10px;
+    width: 450px;
+    height: 45px;
+
+
+}
+
+
+.inputs {
+    background-color: #7285EB;
+}
+
+.botaologar {
+    background-color: black;
+
+}
+
+/*.estetoscopio {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 70.75%;
+        right: 13.72%;
+        top: 1.5%;
+        bottom: 87.86%;
+        background-image: url(/img/logo.jpg);
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+    }*/
+.hermes {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 2.29%;
+    right: 71.06%;
+    top: 1.%;
+    bottom: 88.32%;
+    background-image: url(./img/logo.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.redeSocial {
+    display: flex;
+    justify-content: left;
+
+    max-height: 50px;
+}
+
+.facebook {
+    width: 60px;
+    height: 60px;
+    background-color: #000000;
+    border: none;
+    background-image: url(../img/faceIcon.png);
+    background-size: 48.5px 48.5px;
+    background-repeat: no-repeat;
+}
+
+.whatsapp {
+    width: 60px;
+    height: 60px;
+    background-color: #000000;
+    border: none;
+    background-image: url(../img/wppIcon.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    width: 60px;
+    height: 60px;
+    background-color: #000000;
+    border: none;
+    background-image: url(../img/instaIcon.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+.botaologar {
+    color: white;
+}
+
+::placeholder {
+    color: rgb(67, 66, 66);
+
+}

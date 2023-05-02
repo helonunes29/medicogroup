@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+
+
+
+#medicalGroup {
+    color: black;
+    position: absolute;
+    top: 15px;
+}
+
+
+#topo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #7285EB;
+    height: 70px;
+}
+
+#agenda {
+    position: relative;
+    right: 20px;
+    border: 10px solid black;
+    text-align: justify;
+
+
+}
+
+#relatorios {
+    position: relative;
+    right: 20px;
+    border: 10px solid black;
+    text-align: justify;
+
+
+}
+
+.hermes {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 2.29%;
+    right: 71.06%;
+    top: 1.%;
+    bottom: 88.32%;
+    background-image: url(./imgs/logo.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+#rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+
+    height: 70px;
+}
+
+#areas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d0d6f188;
+    border: 2px solid black;
+    width: 350px;
+    max-width: 200px;
+    text-align: center;
+}
+
+#container {
+    background-image: url(./imgs/medica-idosa.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-size: cover;
+
+    text-align: center;
+}
+
+#containerMenor {
+    max-height: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+    top: 110px;
+}
+
+.consultasText{
+    height: 30px;
+    width: 1px;
+
+    position: relative;
+    left: 370px;
+}
